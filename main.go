@@ -65,7 +65,7 @@ func rearrangeEvenOdd(inputFile string, outputFile string) {
 		}
 	}
 }
-func cutWords(inputFile string, outputFile string, maxLength int) {
+func cut(inputFile string, outputFile string, maxLength int) {
 	input, err := os.Open(inputFile)
 	if err != nil {
 		fmt.Println("Error opening input file")
@@ -102,5 +102,5 @@ func main() {
 	cutOutputFile := "cut_output.txt"
 	reverse(inputFile, reverseOutputFile)
 	rearrangeEvenOdd(inputFile, rearrangeOutputFile)
-	cutWords(inputFile, cutOutputFile, 10)
+	cut(inputFile, cutOutputFile, 10)
 }
