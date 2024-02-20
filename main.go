@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func reverseWords(inputFile string, outputFile string) {
+func reverse(inputFile string, outputFile string) {
 	input, err := os.Open(inputFile)
 	if err != nil {
 		fmt.Println("Error opening input file")
@@ -100,7 +100,7 @@ func main() {
 	reverseOutputFile := "reverse_output.txt"
 	rearrangeOutputFile := "rearrange_output.txt"
 	cutOutputFile := "cut_output.txt"
-	reverseWords(inputFile, reverseOutputFile)
+	reverse(inputFile, reverseOutputFile)
 	rearrangeEvenOdd(inputFile, rearrangeOutputFile)
 	cutWords(inputFile, cutOutputFile, 10)
 }
