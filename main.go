@@ -96,10 +96,10 @@ func cut(inputFile string, outputFile string, maxLength int) {
 }
 func main() {
 	inputFile := "inputfile.txt"
-	firstfile := "reversefile.txt"
-	secondfile := "rearrangefile"
-	thirdfile := "cutfile"
-	reverse(inputFile, firstfile)
-	rearrangeEvenOdd(inputFile, secondfile)
-	cut(inputFile, thirdfile, 10)
+	firstfile1 := "reversefile.txt"
+	secondfile2 := "rearrangefile"
+	thirdfile3 := "cutfile"
+	reverse(inputFile, firstfile1)
+	rearrangeEvenOdd(inputFile, secondfile2)
+	cut(inputFile, thirdfile3, 10)
 }
