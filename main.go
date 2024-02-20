@@ -100,7 +100,7 @@ func main() {
 	inputFile := "inputfile.txt"
 	firstfile1 := "reversefile.txt"
 	secondfile2 := "rearrangefile"
-	thirdfile3 := "cutfile"
+	thirdfile3 := "cutfile.txt"
 	reverse(inputFile, firstfile1)
 	rearrangeEvenOdd(inputFile, secondfile2)
 	cut(inputFile, thirdfile3, 5)
