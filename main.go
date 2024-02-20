@@ -103,5 +103,5 @@ func main() {
 	thirdfile3 := "cutfile"
 	reverse(inputFile, firstfile1)
 	rearrangeEvenOdd(inputFile, secondfile2)
-	cut(inputFile, thirdfile3, 10)
+	cut(inputFile, thirdfile3, 5)
 }
