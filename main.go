@@ -102,5 +102,5 @@ func main() {
 	cutOutputFile := "cut.txt"
 	reverse(inputFile, reverseOutputFile)
 	rearrangeEvenOdd(inputFile, rearrangeOutputFile)
-	cut(inputFile, cutOutputFile, 10)
+	cut(inputFile, cutOutputFile, 8)
 }
