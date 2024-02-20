@@ -93,6 +93,8 @@ func cut(inputFile string, outputFile string, maxLength int) {
 			output.WriteString(word + " ")
 		}
 	}
+
+	fmt.Println("File successfully processed and cut.")
 }
 func main() {
 	inputFile := "inputfile.txt"
